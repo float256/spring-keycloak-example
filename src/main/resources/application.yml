@@ -1,0 +1,14 @@
+server:
+  port: 1337
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: spring-client
+            scope: openid
+            authorization-grant-type: authorization_code
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:1488/auth/realms/spring-keycloak-example
