@@ -14,7 +14,7 @@ import { AppComponent } from './app.component';
     HttpClientModule,
     OAuthModule.forRoot({
       resourceServer: {
-        allowedUrls: ["http://localhost:1337/api/hello"],
+        allowedUrls: ["http://localhost:1337/"],
         sendAccessToken: true
       }
     })

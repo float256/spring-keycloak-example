@@ -36,6 +36,7 @@ export class AppComponent implements OnDestroy{
   private configure() {
     this.oauthService.configure(authConfig);
     this.oauthService.loadDiscoveryDocumentAndTryLogin();
+    this.oauthService.setupAutomaticSilentRefresh();
   }
 
   logout() {

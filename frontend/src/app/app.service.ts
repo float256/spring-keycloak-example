@@ -10,7 +10,6 @@ export class AppService {
 
     hello(): Observable<string> {
         const headers = new HttpHeaders().set('Content-Type', 'text/plain; charset=utf-8');
-        return this.httpClient.get("http://localhost:1337/api/hello", {headers, responseType: 'text'});
+        return this.httpClient.get("http://localhost:1337/", {headers, responseType: 'text'});
     }
-
 }
