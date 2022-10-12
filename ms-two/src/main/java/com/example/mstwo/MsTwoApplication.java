@@ -1,11 +1,11 @@
-package com.example.springkeycloakexample;
+package com.example.mstwo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringKeycloakExampleApplication {
+public class MsTwoApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(SpringKeycloakExampleApplication.class, args);
+		SpringApplication.run(MsTwoApplication.class, args);
 	}
 }

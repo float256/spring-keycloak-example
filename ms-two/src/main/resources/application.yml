@@ -1,0 +1,8 @@
+server:
+  port: 42069
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:1488/auth/realms/spring-keycloak-example/protocol/openid-connect/certs
